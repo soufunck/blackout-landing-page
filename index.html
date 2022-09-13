@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Landing Page</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <nav id="navbar">
+      <img 
+        src="assets/logo.png" 
+        alt="Logo do website" 
+      />
+
+      <ul>
+        <li><a href="https://www.instagram.com/soufunck/" target="_blank">Men</a></li>
+        <li><a href="https://www.instagram.com/soufunck/" target="_blank">Women</a></li>
+        <li><a href="https://www.instagram.com/soufunck/" target="_blank">Kids</a></li>
+        <li><a href="https://www.instagram.com/soufunck/" target="_blank">Sales</a></li>
+        <li><a href="https://www.instagram.com/soufunck/" target="_blank">New Relases</a></li>
+
+        <ul id="icons">
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank"><img src="assets/shopping-cart.png" alt="Ícone de carrinho de compra para a lista de itens" /></a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank"><img src="assets/user.png" alt="Ícone de usuário para a conta" /></a></li>
+        </ul>
+      </ul>
+
+      <button onclick="openSidebar()" style="border: none; background: none;"><img id="menu" src="assets/menu.svg" alt="Ícone de três barras para abrir o menu" width="40px" height="40px" /></button>
+    </nav>
+
+    <div id="sidebar" class="sidebar">
+      <img class="logo" src="assets/logo.png" alt="Logo do website" />
+      <button class="closebtn" onclick="closeSidebar()"><img src="assets/x.svg" alt="Ícone de X para fechar o menu" width="35px" height="35px" /></button>
+
+      <ul>
+        <li><a href="https://www.instagram.com/soufunck/" target="_blank">Men</a></li>
+        <li><a href="https://www.instagram.com/soufunck/" target="_blank">Women</a></li>
+        <li><a href="https://www.instagram.com/soufunck/" target="_blank">Kids</a></li>
+        <li><a href="https://www.instagram.com/soufunck/" target="_blank">Sales</a></li>
+        <li><a href="https://www.instagram.com/soufunck/" target="_blank">New Relases</a></li>
+
+        <ul id="icons">
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank"><img src="assets/shopping-cart.png" alt="Ícone de carrinho de compra para a lista de itens" /></a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank"><img src="assets/user.png" alt="Ícone de usuário para a conta" /></a></li>
+        </ul>
+      </ul>
+
+    </div>
+    
+
+    <div class="ad" id="ad">
+      <marquee 
+        behavior="scroll" scrollamount="15"
+        direction="left" scrolldelay="100"
+        onmouseover="this.stop();" onmouseout="this.start();"
+      ><strong>FREE DELIVERY</strong> in orders over $400 - Buy with confidence: Free Return and cashback</marquee>
+    </div>
+
+    <div class="content">
+      <h1>The Black Lightning</h1>
+      <p>The Fastest Shoe Ever Built</p>
+
+      <a href="https://www.instagram.com/soufunck/" target="_blank">More Info</a>
+    </div>
+
+  </header>
+
+  <!-- Popular Men -->
+  <section class="popular" id="popular">
+    <div class="content">
+
+      <div class="section_title">
+        <h1>
+          Popular Mens Trainers
+        </h1>
+
+        <img src="assets/vector.png" alt="Ícone de seta" />
+      </div>
+      
+      <div class="itens">
+        <div class="itens_cards">
+
+          <div class="itens_card">
+            <img src="assets/men_1.png" class="itens_cardImg" alt="Imagem de um tênis" />
+            <div class="itens_cardMain">
+              <h1>Reebok Royals</h1>
+              <p>$199</p>
+            </div>
+
+            <div class="itens_cardBott">
+              <img src="assets/Heart.png" alt="" />
+              <img src="assets/Star.png" alt="" />
+            </div>
+            
+            <button class="itens_cardBuy">BUY</button>
+          </div>
+
+          <div class="itens_card">
+            <img src="assets/men_2.png" class="itens_cardImg" alt="Imagem de um tênis" />
+            <div class="itens_cardMain">
+              <h1>Reebok Royals</h1>
+              <p>$199</p>
+            </div>
+
+            <div class="itens_cardBott">
+              <img src="assets/Heart.png" alt="" />
+              <img src="assets/Star.png" alt="" />
+            </div>
+
+            <button class="itens_cardBuy">BUY</button>
+          </div>
+
+          <div class="itens_card">
+            <img src="assets/men_3.png" class="itens_cardImg" alt="Imagem de um tênis" />
+            <div class="itens_cardMain">
+              <h1>Reebok Royals</h1>
+              <p>$199</p>
+            </div>
+
+            <div class="itens_cardBott">
+              <img src="assets/Heart.png" alt="" />
+              <img src="assets/Star.png" alt="" />
+            </div>
+
+            <button class="itens_cardBuy">BUY</button>     
+          </div>
+
+          <div class="itens_card">
+            <img src="assets/men_4.png" class="itens_cardImg" alt="Imagem de um tênis" />
+            <div class="itens_cardMain">
+              <h1>Reebok Royals</h1>
+              <p>$199</p>
+            </div>
+
+            <div class="itens_cardBott">
+              <img src="assets/Heart.png" alt="" />
+              <img src="assets/Star.png" alt="" />
+            </div>
+
+            <button class="itens_cardBuy">BUY</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Women -->
+  <section class="popular" id="popular_woman">
+    <div class="content" style="background: #E0E0E0;">
+
+      <div class="section_title">
+        <h1 style="color: var(--salmao)">
+          Womens Running Trainers
+        </h1>
+      
+        <img src="assets/vector-salmao.png" alt="Ícone de seta" />
+      </div>
+      
+      <div class="itens">
+        <div class="itens_cards">
+
+          <div class="itens_card white">
+            <img src="assets/women_1.png" class="itens_cardImg" alt="Imagem de um tênis" />
+            <div class="itens_cardMain">
+              <h1>Nike Womens 1</h1>
+              <p>$199</p>
+            </div>
+
+            <div class="itens_cardBott">
+              <img src="assets/Heart_women.png" alt="" />
+              <img src="assets/Star_women.png" alt="" />
+            </div>
+            
+            <button class="itens_cardBuy white">BUY</button>
+          </div>
+
+          <div class="itens_card white">
+            <img src="assets/women_2.png" class="itens_cardImg" alt="Imagem de um tênis" />
+            <div class="itens_cardMain">
+              <h1>Adidas Womens 1</h1>
+              <p>$199</p>
+            </div>
+
+            <div class="itens_cardBott">
+              <img src="assets/Heart_women.png" alt="" />
+              <img src="assets/Star_women.png" alt="" />
+            </div>
+
+            <button class="itens_cardBuy white">BUY</button>
+          </div>
+
+          <div class="itens_card white">
+            <img src="assets/women_3.png" class="itens_cardImg" alt="Imagem de um tênis" />
+            <div class="itens_cardMain">
+              <h1>Adidas Womens 2</h1>
+              <p>$199</p>
+            </div>
+
+            <div class="itens_cardBott">
+              <img src="assets/Heart_women.png" alt="" />
+              <img src="assets/Star_women.png" alt="" />
+            </div>
+
+            <button class="itens_cardBuy white">BUY</button>     
+          </div>
+
+          <div class="itens_card white">
+            <img src="assets/women_4.png" class="itens_cardImg" alt="Imagem de um tênis" />
+            <div class="itens_cardMain">
+              <h1>Nike Womens 2</h1>
+              <p>$199</p>
+            </div>
+
+            <div class="itens_cardBott">
+              <img src="assets/Heart_women.png" alt="" />
+              <img src="assets/Star_women.png" alt="" />
+            </div>
+
+            <button class="itens_cardBuy white">BUY</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter" id="newsletter">
+
+    <div class="content">
+      <div class="section_title">
+        <h1>Newsletter - SIGN UP FOR news</h1>
+        <p>Subscribe to keep up with the latest trends</p>
+      </div>
+
+      <div class="emailBox">
+        <input type="text" placeholder="Sign up your email here" name="mail" required>
+        <input type="submit" value="Sign Up">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer_top">
+      <div class="footer_topList">
+        <h1>Information</h1>
+        <ul>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">News</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Careers</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Investors</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Purpose</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Sustainability</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_topList">
+        <h1>Costumer Service</h1>
+        <ul>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Order Status</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Shipping and Delivery</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Returns</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Payment Options</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_topList">
+        <h1>Account</h1>
+        <ul>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Order Status</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Shipping and Delivery</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Returns</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Payment Options</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_topList">
+        <h1>Login</h1>
+        <ul>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Order Status</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Shipping and Delivery</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Returns</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Payment Options</a></li>
+          <li><a href="https://www.instagram.com/soufunck/" target="_blank">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="footer_bottom">
+      <img src="assets/logo.png" alt="Logo do site" />
+
+      <ul>
+        <li><img src="assets/facebook_icon.png" alt="Ícone do facebook"></li>
+        <li><img src="assets/instagram_icon.png" alt="Ícone do instagram"></li>
+        <li><img src="assets/linkedin_icon.png" alt="Ícone do linkedin"></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="footer_extra">
+    <p>
+      Designer: <a href="https://www.figma.com/community/file/1145838608489224675" target="_blank">Rodrigo Oliveira</a>
+    </p>
+    
+    <hr class="vertical" />
+    
+    <p>
+      Developer: <a href="https://instagram/soufunck" target="_blank">@soufunck</a>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
