@@ -3,7 +3,7 @@
 A website landing page developed following the design by <a href="#">Rodrigo Oliveira</a>
 
 # 📷 Demo
-[https://soufunck.github.io/blackout-landing-page/](Click here to see the live demo)
+[Click here to see the live demo](https://soufunck.github.io/blackout-landing-page/)
 
 # 👏 See more
-Want more? Visit my portfolio: https://portfolio-soufunck.vercel.app/
+You want more? Visit my portfolio: https://portfolio-soufunck.vercel.app/
